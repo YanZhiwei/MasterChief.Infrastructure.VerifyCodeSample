@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28721.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChief.Infrastructure.WbSample", "MasterChief.Infrastructure.WbSample\MasterChief.Infrastructure.WbSample.csproj", "{CBF5DC18-BEF2-415C-8FF2-6291B7A9099C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChief.Infrastructure.MvcSample", "MasterChief.Infrastructure.MvcSample\MasterChief.Infrastructure.MvcSample.csproj", "{A8AC4575-3BC4-4066-80DA-76B6BE36E8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBF5DC18-BEF2-415C-8FF2-6291B7A9099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF5DC18-BEF2-415C-8FF2-6291B7A9099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF5DC18-BEF2-415C-8FF2-6291B7A9099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF5DC18-BEF2-415C-8FF2-6291B7A9099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8AC4575-3BC4-4066-80DA-76B6BE36E8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8AC4575-3BC4-4066-80DA-76B6BE36E8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8AC4575-3BC4-4066-80DA-76B6BE36E8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8AC4575-3BC4-4066-80DA-76B6BE36E8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C690FBB9-B393-4E35-9F70-26F34FCE680A}
+	EndGlobalSection
+EndGlobal
