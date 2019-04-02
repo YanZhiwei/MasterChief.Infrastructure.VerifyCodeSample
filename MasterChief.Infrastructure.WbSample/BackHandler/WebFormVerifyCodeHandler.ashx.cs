@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web;
 using System.Web.SessionState;
 using MasterChief.DotNet.Infrastructure.VerifyCode;
 using MasterChief.DotNet.Infrastructure.VerifyCode.ValidateCode;
@@ -10,11 +7,10 @@ using MasterChief.DotNet4.Utilities;
 namespace MasterChief.Infrastructure.WbSample.BackHandler
 {
     /// <summary>
-    /// WebFormVerifyCodeHandler 的摘要说明
+    ///     WebFormVerifyCodeHandler 的摘要说明
     /// </summary>
-    public class WebFormVerifyCodeHandler :  VerifyCodeHandler, IHttpHandler, IRequiresSessionState
+    public class WebFormVerifyCodeHandler : VerifyCodeHandler, IHttpHandler, IRequiresSessionState
     {
-
         public void ProcessRequest(HttpContext context)
         {
             var validateType = context.Request.Params["style"];
